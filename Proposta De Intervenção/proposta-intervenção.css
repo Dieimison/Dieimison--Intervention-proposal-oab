@@ -1,0 +1,280 @@
+/*Limpar formatações padrão*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Noto Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	font-size: 1em;
+	background-color: #2f2841;
+}
+
+/*------------------Header------------------------------*/
+#header {
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	background-color: #201b2c;
+}
+
+#header > h1 {
+	margin: auto;
+	color: #FFF;
+	width: fit-content;
+	font-size: 3vw;
+	display: block;
+    text-align: center;
+    padding: 0px 12px;
+	border: solid 1px #FFF;
+	border-radius: 12px;
+	
+
+}
+/*------------------Nav---------------------------------*/
+#nav {
+	text-align: center;
+	width: 100%;
+	padding: 12px 12px;
+	background-color: #201b2c;
+	border-bottom: 0.5px solid #514869;
+
+}
+#nav > a {
+	color: #FFF;
+	font-size: 15px;
+	transition: 0.5s ease;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-radius: 10px;
+
+}	
+
+#nav > a:hover {
+	color: #FFF;
+    background-color: #2366F7;
+	font-size: 16px;
+	font-weight: 700;
+	box-shadow: 0px 10px 40px #00000056;
+
+}
+
+/*------------------Article---------------------------------*/
+#article {
+	margin: 10px auto; /*QUANTIA PIXEL DO CONTEUDO*/
+	width: 960px;
+	min-height: 80vh;
+}
+
+#left {
+	width: 630px;
+	background: #514869;
+	float: left;
+	border-radius: 5px ;
+	box-shadow: 0px 10px 40px #00000056;
+	margin: 10px auto;
+}
+.post-left {
+	padding: 20px;
+	margin-bottom: 20px;
+	align-items: center;
+}
+	.post-left > p {
+		color: #FFF;
+		font-weight: 200;
+		font-size: 18px;
+		padding: 29px 10px;
+	}
+	.post-left > h2 {
+			width: 40%;
+			margin: 0px auto;
+			background-color: #2f2841;
+			color: #FFF ;
+			border-radius: 25px;
+			border: solid 2px #FFF;
+			padding: 5px;
+			text-align: center;
+			box-shadow: 0px 10px 40px #00000056;
+	
+	}
+
+	.date-post {
+		color: #FFF;
+		font-size: 0.8em;
+		margin-bottom: 10px;
+	}
+
+	
+	.left-image1{
+		width: 400px;
+		margin:auto;
+		border-radius: 35%;
+		border-bottom: 1px solid #2f2841;
+	}
+
+	.left-image2 {
+		width: 110px;
+		margin:auto;
+		border-radius: 35%;
+		border-bottom: 1px solid #2f2841;
+	}
+
+
+/*------------------Aside---------------------------------*/
+#right {
+	width: 300px;
+	background: #514869;
+	float: right;
+	padding: 10px;
+	border-radius: 5px ;
+	margin: 10px auto 17px 14px;
+	box-shadow: 0px 10px 40px #00000056;
+}
+
+		.post-right {
+			color: #FFF;
+			font-weight: 380px;
+			font-size: 16px;
+			margin: 5px 8px;
+		}
+
+		.post-right > h2 {
+			width: 90%;
+			margin: 0px auto;
+			background-color: #2f2841;
+			color: #FFF ;
+			border-radius: 25px;
+			border: solid 2px #FFF;
+			padding: 5px;
+			text-align: center;
+			box-shadow: 0px 10px 40px #00000056;
+	
+		}
+
+#right2 {
+	width: 300px;
+	background: #514869;
+	float: right;
+	padding: 10px;
+	border-radius: 5px ;
+	margin: 10px auto 17px 14px;
+	box-shadow: 0px 10px 40px #00000056;
+}
+
+		.post-right {
+			color: #FFF;
+			font-weight: 380px;
+			font-size: 16px;
+			padding: 20px 5px;
+		}
+
+		
+/*------------------Rodapé---------------------------------*/
+footer {
+	background-color: #201b2c;
+	border-top: 1px #514869 solid;
+	clear: both;
+} 
+	.container-footer {
+		max-width: 100%;
+		padding: 0% 4%;
+		margin: 10px auto;
+	}
+		.row-footer {
+			position: relative;
+			display: flex;
+			flex-wrap: wrap;
+
+		}
+
+			.footer-colum {
+				width: 30%;
+				margin: 10px auto;
+				padding-right: 3,30px;
+				justify-content: center;
+				text-align: center;
+			}
+				.footer-colum h4 {
+					font-size: 22px;
+					color: #2366F7;
+					margin-bottom: 20px;
+					font-weight: 500;
+					position: relative;
+					text-transform: uppercase;
+					text-align: center;
+				}
+
+				.footer-colum p {
+					color: #FFF;
+					text-align: center;
+				}
+
+				.footer-colum a {
+					color: #FFF;
+					border: 1px solid white;
+					border-radius: 50%;
+				}
+
+				.footer-colum a:hover {
+					color: #2366F7;
+					border: 1px solid #2366F7;
+					transform: 0.5;
+				}
+
+
+				.img-footer {
+					width: 60%;
+				
+				}
+
+				.midias-sociais {
+					text-align: center;
+				}
+	/*-------------------------------------------------------------------------------*/
+.footer-bottom {
+	border-top: 1px solid #514869 ;
+	text-align: center;
+	padding: 15px;
+
+}
+.footer-bottom p {
+	font-weight: 600;
+	color: #FFF;
+}
+
+.footer-bottom a {
+	color: #2366F7;
+	border: 1px white;
+}
+	a:hover {
+		color: #FFF;
+    	transition: 0.5s ease;
+}
+	
+
+
+/**** Formatações do menu ****
+*/
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #2366F7;
+	padding: 8px 12px;
+}
+
+
+/*
+**** Formatações em geral ****
+*/
+.branco {
+	color: white;
+}
+.blue {
+    color: #2366F7;
+}
